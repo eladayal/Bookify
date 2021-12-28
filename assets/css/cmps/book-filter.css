@@ -1,0 +1,10 @@
+.book-filter {
+  padding-block-start: 50px;
+  padding-block-end: 25px;
+}
+
+.book-filter label {
+  margin-inline-start: 10px;
+  font-weight: 600;
+  align-self: center;
+}

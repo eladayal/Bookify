@@ -1,0 +1,10 @@
+.book-add-section{
+    margin-block-end: 100px;
+}
+
+
+.book-add-section label{
+
+    font-weight: bold;
+    margin-block-end: 10px;
+}

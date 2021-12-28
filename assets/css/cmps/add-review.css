@@ -1,0 +1,7 @@
+.review-form{
+    margin-block-end: 100px;
+}
+
+.review-form input,textarea{
+    margin-block-end: 20px;
+}

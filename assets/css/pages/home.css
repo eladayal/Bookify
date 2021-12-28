@@ -1,0 +1,45 @@
+/* .home-page{
+ 
+} */
+
+.home-hero {
+  background-image: linear-gradient(rgb(0 0 0 / 68%), rgb(115 201 203 / 40%)), url(../../img/hero.jpg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-title {
+  font-family: "Berkshire";
+  font-size: 4rem;
+  color: antiquewhite;
+  text-shadow: -3px 4px 4px black;
+  margin-block-start: 50px;
+  margin-block-end: 80px;
+}
+.hero-subtitle {
+  color: antiquewhite;
+  font-family: 'Berkshire';
+  font-size: 2rem;
+  text-shadow: -2px 2px 2px black;
+  
+  margin-block-end: 200px;
+}
+
+.hero-slogan {
+  color: antiquewhite;
+  font-family: 'Berkshire';
+  font-size: 2rem;
+  text-shadow: -2px 2px 2px black;
+  margin-block-end: 30px;
+}
+
+
+.go-to-books-btn{
+  text-align: center;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
+  padding: 40px !important;
+  padding-inline: 25px; 
+  font-size: 2rem !important;
+  font-weight: bold!important;
+}

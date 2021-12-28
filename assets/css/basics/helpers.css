@@ -1,0 +1,59 @@
+/* flex helpers */
+
+.flex {
+  display: flex;
+}
+
+
+
+.flex.space-between {
+  justify-content: space-between;
+}
+.flex.justify-center {
+  justify-content: center;
+}
+.flex.space-around {
+  justify-content: space-around;
+}
+.flex.space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex.align-center {
+  align-items: center;
+}
+
+.flex.flex-direction-column {
+  flex-direction: column;
+}
+.flex.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex.warp {
+  flex-wrap: wrap;
+}
+
+
+/* LAYOUTS */
+
+.main-layout {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+/* HEALPERS */
+
+.clean-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.clean-link{
+  text-decoration: none;
+  color: inherit;
+}

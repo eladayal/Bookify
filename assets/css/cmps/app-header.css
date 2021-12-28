@@ -1,0 +1,27 @@
+.main-header {
+    background-color: #73c9cb;
+    box-shadow: inset 0px -4px #191919;
+  }
+  
+  .main-header .logo {
+    font-family: Berkshire;
+    font-size: 4rem;
+    color: #191919;
+    text-shadow: -1px 1px 3px #a59f9f;
+    margin: 0;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .header-nav a{
+font-size: 1.2rem;
+font-weight: bold;
+}
+  .header-nav a:focus{
+    color: #315754;
+
+}
+
+  .main-header .header-nav > *:not(:last-child) {
+    margin-inline-end: 4rem;
+}

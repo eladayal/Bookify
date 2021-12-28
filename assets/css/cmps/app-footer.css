@@ -1,0 +1,25 @@
+
+.footer-container {
+
+    background-color: #2f5657b2;
+    border-top: 1px solid #1d1d1d;
+  }
+
+
+.main-footer .logo {
+    font-size: 2.5rem;
+    font-family: Berkshire;
+    color: #73c9cb;
+    text-shadow: -1px 2px 2px black;
+    padding-block: 9px;
+  }
+
+  
+.footer-copyrights {
+    font-size: .8rem;
+    color: rgb(223, 223, 223);
+    letter-spacing: 1px;
+    text-decoration: overline;
+    padding-block: 10px;
+  
+  }

@@ -1,0 +1,52 @@
+.book-preview {
+  height: 450px;
+  width: 200px;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.book-preview .book-title {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #2a2a2a;
+  text-shadow: -1px 1px 0px #a1a1a1;
+}
+
+.book-preview .book-title::first-letter {
+  text-transform: uppercase;
+}
+
+.book-preview small {
+  color: #8d8d8d;
+}
+
+.book-preview .authors {
+  margin-block-end: 11px;
+  margin-block-start: 10px;
+}
+
+.book-preview .book-img-container {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* .book-img-container:hover {
+    height: 455px;
+} */
+
+
+.book-preview .book-price{
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-preview-img{
+
+transition: 0.1s;
+}
+
+.book-preview-img:hover{
+  padding: 6px;
+}

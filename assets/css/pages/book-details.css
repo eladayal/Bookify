@@ -1,0 +1,75 @@
+.book-details {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-details .book-title {
+  text-transform: uppercase;
+  text-shadow: -1px 2px 0px #a1a1a1;
+}
+
+.book-details .book-details-desc::first-letter {
+  text-transform: uppercase;
+}
+
+.book-details-img{
+  position: relative;
+}
+
+.book-details .back-to-books{
+
+  margin-block-start: 30px;
+}
+
+.review-container{
+  background-color: #b0c9c9;
+  padding: 0 70px;
+  margin-block-start: 40px;
+}
+.review-container-title::first-letter{
+  text-transform: uppercase;
+
+}
+
+
+.review-container-title{
+  color: #181818;
+
+}
+
+
+
+
+
+.sale-tag::before{
+  background-color: #b71d1dde;
+    content: 'ON SALE';
+    border-radius: 50%;
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 72px;
+    color: #fff;
+    position: absolute;
+    top: 19%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+
+
+.book-detail-sale {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-block-end: 10px;
+}
+
+.red {
+  color: #df2323;
+}
+
+.green {
+  color: seagreen;
+}
