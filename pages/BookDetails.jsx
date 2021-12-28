@@ -18,6 +18,7 @@ export class BookDetails extends React.Component {
 
     componentDidMount() {
         this.loadBook()
+        console.log('props:', this.props);
     }
 
     componentDidUpdate(prevProps) {

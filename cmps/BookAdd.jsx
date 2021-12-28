@@ -48,7 +48,7 @@ export class BookAdd extends React.Component {
         Toast.fire({
             icon: 'success',
             title: 'New Book Added successfully Submitted!',
-            html:`<a href=/index.html#/books/${book.id}>Check it out!</a>`
+            html:`<a href=#/books/${book.id}>Check it out!</a>`
    
         })
     }
